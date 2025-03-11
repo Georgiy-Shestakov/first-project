@@ -16,13 +16,24 @@
 
 ## Выделение кода
 
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
+
 Чтобы выделить текст как код, поместите его в тройные кавычки `````. 
 
 ```
 mkdir my_project
 cd my_project
 git init
+
 ```
+
 
 А так можно оФормить ссылку [yandex](https://practicum.yandex.ru/learn/qa-automation-engineer-python/courses/e43c6f63-5914-4de3-b376-fae5942c2390/sprints/552812/topics/920e09cd-e083-4139-bf78-2cde8a7fcdfb/lessons/d6326f02-c8ab-4586-9ee1-7f410ad7fbbf/ "Ссылка на Практикум")
 
